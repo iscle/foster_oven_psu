@@ -4,6 +4,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>adc.h</itemPath>
+      <itemPath>gpio.h</itemPath>
+      <itemPath>usart.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -12,11 +15,18 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>main.c</itemPath>
+      <itemPath>adc.c</itemPath>
+      <itemPath>gpio.c</itemPath>
+      <itemPath>fuses.c</itemPath>
+      <itemPath>usart.c</itemPath>
+      <itemPath>cpu.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
+      <itemPath>foster_oven_psu.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
