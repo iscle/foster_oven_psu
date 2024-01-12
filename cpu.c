@@ -1,4 +1,4 @@
-#include <avr/io.h>
+#include "cpu.h"
 #include <avr/interrupt.h>
 
 void cpu_init(void) {

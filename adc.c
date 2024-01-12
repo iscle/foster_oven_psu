@@ -109,9 +109,6 @@ void adc_init(void) {
     // Reference = AVCC with external capacitor at AREF pin
     // Analog channel = 1.1V (VBG)
     ADMUX = (1 << REFS0) | (1 << MUX3) | (1 << MUX2) | (1 << MUX1);
-
-    // Reset value
-    ADCSRB = 0x00;
     
     // ADC enable = 1
     // ADC interrupt enable = 1
